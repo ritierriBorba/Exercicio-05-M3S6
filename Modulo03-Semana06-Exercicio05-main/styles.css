@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#pageTitle {
+    font-size: 80px;
+}
+
+#userName {
+    font-size: 50px;
+}
+
+.box {
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #8D9EFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#avatar {
+    border-radius: 100%;
+    width: 200px;
+    min-height: 200px;
+}
+
+.btn {
+    display: flex;
+    color: #B9E0FF;
+    background-color: #6C4AB6;
+    height: 50px;
+    width: 250px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.logoSocial {
+    height: 80%;
+}
+
+.redeSocial {
+    margin-left: 10px;
+}
